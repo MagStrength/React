@@ -1,0 +1,8 @@
+.text {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.text span {
+    color: darkblue;
+}
