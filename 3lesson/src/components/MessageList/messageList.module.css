@@ -1,0 +1,9 @@
+.text {
+    font-style: italic;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
