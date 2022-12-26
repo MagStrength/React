@@ -1,0 +1,19 @@
+body {
+  margin: 5% 7%;
+  font-family: 'Segoe UI', 'Roboto', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    sans-serif;
+}
+
+ul {
+  font-size: 21px;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+  margin: 0;
+}
+
+.title {
+  margin: 45px 0;
+}
