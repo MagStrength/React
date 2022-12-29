@@ -1,0 +1,31 @@
+.wrapper {
+    & :global .MuiOutlinedInput-root {
+        font-size: 16px;
+    }
+
+    & :global .MuiInputLabel-root {
+        font-size: 16px;
+    }
+
+    .name,
+    .message {
+        width: 100%;
+    }
+
+    .message {
+        margin-top: 16px;
+    }
+
+    .btnWrap {
+
+        .button {
+            min-width: 60%;
+            margin-top: 16px;
+            padding: 6px;
+            background-color: #704aa7a8;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    }
+}
