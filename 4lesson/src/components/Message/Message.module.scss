@@ -1,0 +1,15 @@
+.wrap {
+    display: flex;
+    color: #704aa7a8;
+    padding: 8px 0;
+
+    .author {
+        padding-left: 16px;
+        flex-grow: 1;
+    }
+
+    .text {
+        padding-left: 16px;
+        width: 70%;
+    }
+}

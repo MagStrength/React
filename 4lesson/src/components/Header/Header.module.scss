@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 18px;
+
+    li:not(:first-child) {
+        margin-left: 16px;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,33 @@
+.wrap {
+
+    .title {
+        padding: 8px;
+        background-color: #704aa7a8;
+        color: white;
+    }
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 16px 4px;
+        color: #704aa7a8;
+
+        .link {
+            text-decoration: none;
+            color: #704aa7a8;
+            cursor: pointer;
+        }
+
+        .closeBtn {
+            cursor: pointer;
+
+            &:hover {
+                color: #88150d;
+            }
+        }
+    }
+
+    & :global .MuiList-root {
+        padding: 0;
+    }
+}
