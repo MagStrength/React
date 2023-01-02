@@ -1,0 +1,35 @@
+.wrapper {
+    & :global .MuiOutlinedInput-root {
+        font-size: 17px;
+    }
+
+    & :global .MuiInputLabel-root {
+        font-size: 17px;
+    }
+
+    .autor,
+    .text {
+        width: 100%;
+        color: aliceblue;
+        background: rgba(255, 255, 255, 0.738);
+
+    }
+
+    .text {
+        margin-top: 16px;
+    }
+
+    .btnWrap {
+        display: flex;
+
+        .button {
+            min-width: 60%;
+            margin-top: 16px;
+            padding: 6px;
+            background-color: #704aa7a8;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    }
+}
