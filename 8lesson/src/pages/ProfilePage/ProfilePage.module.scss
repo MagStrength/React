@@ -1,0 +1,29 @@
+.wrapper {
+
+    .autor {
+        min-width: 100%;
+        color: aliceblue;
+        background: rgba(255, 255, 255, 0.738);
+    }
+
+    .wrp {
+
+        display: flex;
+        flex-direction: column;
+
+        .btn {
+            min-width: 60%;
+            margin-top: 16px;
+            padding: 6px;
+            font-family: inherit;
+            background-color: #704aa7a8;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    }
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #704aa7a8;
+}

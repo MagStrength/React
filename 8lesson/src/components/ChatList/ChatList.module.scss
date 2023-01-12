@@ -1,0 +1,41 @@
+.wrap {
+
+    .title {
+        padding: 8px;
+        background-color: #704aa7a8;
+        color: white;
+    }
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 16px 4px;
+        color: inherit;
+
+        &:hover {
+            background-color: #714aa74e;
+        }
+
+        .closeBtn {
+            cursor: pointer;
+            font-weight: 700;
+            scale: 1.4;
+            color: #704aa7a8;
+
+            &:hover {
+                color: #76241e;
+            }
+        }
+
+    }
+
+    .link {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+
+    & :global .MuiList-root {
+        padding: 0;
+    }
+}

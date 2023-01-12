@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+}
+
+.news-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.refrash-button {
+    background: #325bcd;
+    border: none;
+    border-radius: 15px;
+    height: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.refrash-button:hover {
+    background-color: white;
+    border: 1px solid #3268cd;
+}
+
+.news-content {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.news-error {
+    text-align: center;
+    color: red;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+}
+
+.loader {
+    margin-top: 45px;
+}
+
+.article {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(245, 253, 253, 0.712);
+    border-radius: 12px;
+    border: solid 1px rgba(50, 139, 139, 0.712);
+    width: calc(100% / 4 - 13px);
+}
