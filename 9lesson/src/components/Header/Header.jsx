@@ -1,0 +1,56 @@
+import styles from './Header.module.scss'
+import { NavLink } from "react-router-dom";
+
+const links = [
+  {
+    id: 1,
+    name: 'Home',
+    to: '/'
+  },
+  {
+    id: 2,
+    name: 'Chats',
+    to: '/chats'
+  },
+  {
+    id: 3,
+    name: 'Profile',
+    to: '/profile'
+  },
+  {
+    id: 4,
+    name: 'News',
+    to: '/articles'
+  },
+  {
+    id: 5,
+    name: 'SignIn',
+    to: '/signin'
+  },
+  {
+    id: 6,
+    name: 'SignUp',
+    to: '/signup'
+  },
+]
+
+export function Header(props) {
+
+  return (
+
+    <header>
+      <nav>
+        <ul className={`${styles.wrapper} ${props.className}`}>
+          {links.map((item) => (
+            <li key={item.id}>
+              <NavLink style={({ isActive }) => ({
+                color: isActive ? 'darkviolet' : '#704aa7a8'
+              })}
+                className={`${styles.link}`} to={item.to}>{item.name}</NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  )
+}
