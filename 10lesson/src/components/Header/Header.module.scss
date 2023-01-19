@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+    .user {
+        color: #b153c2
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 18px;
+
+    li:not(:first-child) {
+        margin-left: 16px;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .log {
+        display: flex;
+        justify-content: right;
+    }
+}
